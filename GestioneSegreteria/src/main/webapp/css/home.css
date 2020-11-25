@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+h1{
+	color:red
+}
+
+body>h3{
+	color:blue;
+}
+
+
+/*h3 figlio diretto di figcaption*/
+figcaption>h3{
+	color:green;
+}
+
+
+/*classe jumbotron*/
+.jumbotron{
+	background-color:cyan;
+}
+
+article{
+	left:100px;
+	font-family:verdana;
+	font-size:20px
+}
+
+/*Article fratello successivo di altro article*/
+article+article{
+	text-decoration:underline;
+}
+
+/*id = p1*/
+#p1 {
+	text-decoration:underline;
+}
